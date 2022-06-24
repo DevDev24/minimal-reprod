@@ -1,0 +1,5 @@
+{
+	"private": {"ldapUrl":"ldap://10.254.254.254"},
+	"testUser":"manager",
+	"testPass":"P@ssw0rd"
+}

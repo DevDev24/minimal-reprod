@@ -1,0 +1,15 @@
+Exception while invoking method 'login' TypeError: Cannot read property '0' of undefined
+     at MethodInvocation.<anonymous> (packages\typ_accounts-ldap.js:292:56)
+    at packages/accounts-base/accounts_server.js:512:31
+     at tryLoginMethod (packages/accounts-base/accounts_server.js:1305:14)
+     at AccountsServer._runLoginHandlers (packages/accounts-base/accounts_server.js:510:22)
+     at MethodInvocation.methods.login (packages/accounts-base/accounts_server.js:570:31)
+     at maybeAuditArgumentChecks (packages/ddp-server/livedata_server.js:1885:12)
+     at packages/ddp-server/livedata_server.js:769:19
+     at Meteor.EnvironmentVariable.EVp.withValue (packages\meteor.js:1257:12)
+     at packages/ddp-server/livedata_server.js:767:46
+     at Meteor.EnvironmentVariable.EVp.withValue (packages\meteor.js:1257:12)
+     at packages/ddp-server/livedata_server.js:765:46
+     at new Promise (<anonymous>)
+     at Session.method (packages/ddp-server/livedata_server.js:739:23)
+     at packages/ddp-server/livedata_server.js:603:43
